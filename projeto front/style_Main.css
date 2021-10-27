@@ -21,37 +21,9 @@ body{
 
 }
 
-.filmes{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-
-    
-
-}
-
-.carousel-control-previus{
-    background-color: rgba(0, 0, 0, 0.308);
-    border: none;
-    color: #fff;
-    position: absolute;
-    left: 04px;
-    height: 50%;
-    top: 20%;
- 
-}
 
 
-.carousel-control-next2{
-    background-color: rgba(0, 0, 0, 0.301);
-    border: none;
-    color: #fff;
-    position: absolute;
-    right: 04px;
-    height: 50%;
-    top: 20%;
-    
-}
+
 
 #conteinerDestaque{
     display: flex;
@@ -100,6 +72,7 @@ h2{
     margin-top: 40px;
     margin-left: 20px;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -108,5 +81,6 @@ li{
     list-style-type: none;
     
  }
+
 
  
