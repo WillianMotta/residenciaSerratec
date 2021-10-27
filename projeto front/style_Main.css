@@ -3,49 +3,110 @@
 
 
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    
-}
-
 body{
 
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(135deg, rgba(12,6,29,1) 14%, rgba(35,8,113,1) 52%, rgba(68,7,83,1) 100% );
-    background-attachment: fixed;
+    background-image: linear-gradient(135deg, rgba(12,6,29,1) 14%, rgba(35,8,113,1) 52%, rgba(68,7,83,1) );
+    background-attachment: fixed; 
+    color: #fff;
+    margin: 0;
+    padding: 0;
     
 }
 
 #carrosel{
+    width: 100%;
     margin: auto;
-    height: 85%;
-    width: 100%;
-    box-shadow: 7px 7px 7px rgba(99, 97, 97, 0.199);
+    box-shadow: 7px 7px 7px rgba(236, 236, 236, 0.178);
 
 }
 
-
-#Comedia{
-    margin-top: 25px;
-    border: 1px solid red;
+.filmes{
     display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    
+
+}
+
+.carousel-control-previus{
+    background-color: rgba(0, 0, 0, 0.308);
+    border: none;
+    color: #fff;
+    position: absolute;
+    left: 04px;
     height: 50%;
-    justify-content: space-around;  
+    top: 20%;
+ 
 }
 
-#Comedia > a > img{
 
-    height: 90%;
+.carousel-control-next2{
+    background-color: rgba(0, 0, 0, 0.301);
+    border: none;
+    color: #fff;
+    position: absolute;
+    right: 04px;
+    height: 50%;
+    top: 20%;
+    
+}
+
+#conteinerDestaque{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+}
+
+#destaque{
+    padding: 20px;
+}
+
+#descricao{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnDesc{
+    background: linear-gradient(273.41deg, #4A14E4 0%, #900AB1 100%);
+    border-radius: 5px;
+    color:#fff;
+    border-style: none;
+    width: 20%;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.144);
+    margin: 10%;
+    
+}
+
+footer{
+    margin-top: 30px;
+    padding: 5%;
     width: 100%;
-    margin: 20px;
-   
+    background-color: rgb(31, 28, 28);
 }
+
+#conteinerfooter{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 h2{
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
     color: #fff;
+    
 }
+
+
+li{
+    list-style-type: none;
+    
+ }
+
+ 
