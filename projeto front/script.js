@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 var $imagesCarousel = $('.carouselOfImages').flickity({
   contain: true,
@@ -5,13 +6,15 @@ var $imagesCarousel = $('.carouselOfImages').flickity({
   wrapAround: true,
   friction: 0.3
 });
+
+
 function resizeCells() {
   var flkty = $imagesCarousel.data('flickity');
   var $current = flkty.selectedIndex
   var $length = flkty.cells.length
-  if ($length <='5') {
-    $imagesCarousel.flickity('destroy');
-  }
+  // if ($length <='0') {
+  //   $imagesCarousel.flickity('destroy');
+  // }
   $('.carouselOfImages .carouselImage').removeClass("nextToSelected");
   $('.carouselOfImages .carouselImage').eq($current-1).addClass("nextToSelected");
   if ($current+1 == $length) {
@@ -73,3 +76,6 @@ $(window).on('load resize', function(){
     });
   }); 
 });
+
+
+

@@ -5,8 +5,8 @@
   overflow:visible;
 }
 .carouselImage {
-  width: 300px;
-  height: 500px;
+  width: 200px;
+  height: 300px;
   margin-top:65px;
   margin-bottom:100px;
   border-radius: 5px;
@@ -166,29 +166,8 @@ https://flickity.metafizzy.co
     font-weight:700;
 }
 
-#lightbox {
-	display: none;
-	position: fixed;
-	top:0;
-	left:0;
-	bottom: 0;
-	right: 0;
-	margin: auto;
-	width:90vw;
-	height:90vh;
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-#dark {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background:rgba(0,0,0,.9);
-	width:100vw;
-	height:100vh;
-}
+
+
 
 .product-detail {
   position: fixed;
