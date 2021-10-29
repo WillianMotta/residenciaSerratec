@@ -9,13 +9,14 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <link rel='stylesheet' href='https://cdn.rawgit.com/JacobLett/bootstrap4-latest/master/bootstrap-4-latest.min.css'><link rel="stylesheet" href="./style.css">
       <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="style_Main.css">
+      <!-- <link rel="stylesheet" href="style_Main.css"> -->
 
   </head>
 
   <body>
-      <div id="carrosel">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <main>
+      
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -40,54 +41,44 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>                                 
               </button>
-            </div>                                       
-      </div>  
-      
-      
-      <div class="conteiner">
-          <h2>TOP 20</h2>
+      </div>                                       
+        
+         
+      <div class="container"> 
+         <h2>TOP 20</h2>
           <div class="movie-slider">
             <div class="movie-list" id="top">
-                
-              
-                
-            </div>
-        </div>
-          
-      </div>     
-
-      
-
-      <div id="conteinerDestaque">
+          </div>
+      </div>
+        
+        
+    <div id="conteinerDestaque">
         <div id="destaque">
-          <a href=""><img src="https://t.ctcdn.com.br/yxkRJwWAWdcUHvlND0j14wYud7s=/512x288/smart/i436295.jpeg" alt=""></a>
+            <a href=""><img src="https://t.ctcdn.com.br/yxkRJwWAWdcUHvlND0j14wYud7s=/512x288/smart/i436295.jpeg" alt=""></a>
+          </picture>
         </div>
         <div id="descricao">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex alias ipsa velit laboriosam natus libero expedita ratione ipsum.</p> 
             <button class="btnDesc" type="button">SAIBA MAIS</button>
             <button class="btnDesc" type="button">COMPRAR</button>
         </div>
-      </div>
+    </div>
 
-      <div class="conteiner">
-        <h2>Ação</h2>
+      
+    <div class="container">
+      <h2>Ação</h2>
         <div class="movie-slider">
-          <div class="movie-list" id="acao">
-              
-          </div>
-      </div>
+        <div class="movie-list" id="acao"></div>
+    </div>
+      
 
-      <div class="conteiner">
+      
+      <div class="container">
         <h2>Animação</h2>
         <div class="movie-slider">
-          <div class="movie-list" id="anime">
-              
-          </div>
+            <div class="movie-list" id="anime"></div>
+        </div>
       </div>
-        
-    
-    
-      
 
       <footer>
         <div id="conteinerfooter">
@@ -113,6 +104,7 @@
           </div>
       </div>
       </footer>
+    </main>
 
     <script src="script.js"></script>
     <script src="script2.js"></script>
